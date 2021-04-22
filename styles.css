@@ -56,3 +56,32 @@ color: white;
 }
 
 
+/**Navigation**/
+
+.navigation {
+    background-color: var(--primary-color);
+     color: white;
+     padding: 1rem;
+     border-bottom-left-radius: 1.5rem;
+     border-top-right-radius: 1.5rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .nav-brand {
+font-weight: bold;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+
+
