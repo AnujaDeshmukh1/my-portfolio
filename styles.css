@@ -4,11 +4,12 @@
     --primary-color: #B517AB;
     --dark-purple: 
     #660066;
-    --off-white: #E5E7EB;
+    --off-white: #F3F4F6;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -64,7 +65,7 @@ color: white;
 .navigation {
     background-color: var(--primary-color);
      color: white;
-     padding: 1rem;
+     padding: 2rem;
      border-bottom-left-radius: 1.5rem;
      border-top-right-radius: 1.5rem;
 }
@@ -75,6 +76,7 @@ color: white;
 
 .navigation .nav-brand {
 font-weight: bold;
+font-size: larger;
 }
 
 .navigation .nav-pills {
@@ -118,4 +120,25 @@ margin: auto;
 
 .ow {
     background-color: var(--off-white);
+}
+
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .ul{
+    padding-inline-start: 0px;
+    /**This is becuz we need to remove padding wiz applied by browzer**/
 }
