@@ -4,6 +4,7 @@
     --primary-color: #B517AB;
     --dark-purple: 
     #660066;
+    --off-white: #E5E7EB;
 }
 
 body{
@@ -102,4 +103,19 @@ margin: auto;
     padding-top: 1rem;
     color: var(--dark-purple);
     text-align: center;
+}
+
+
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
