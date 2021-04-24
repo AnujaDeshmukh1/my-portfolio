@@ -118,6 +118,8 @@ margin: auto;
 
 .section {
     padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .section h1 {
@@ -134,6 +136,7 @@ margin: auto;
 .footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
+    margin-top: 5rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1.5rem;
