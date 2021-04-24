@@ -33,6 +33,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary {
@@ -65,7 +66,7 @@ color: white;
 .navigation {
     background-color: var(--primary-color);
      color: white;
-     padding: 2rem;
+     padding: 1rem;
      border-bottom-left-radius: 1.5rem;
      border-top-right-radius: 1.5rem;
 }
@@ -80,6 +81,7 @@ font-size: larger;
 }
 
 .navigation .nav-pills {
+    padding-top: 1.5rem;
     text-align: right;
 }
 
@@ -105,6 +107,10 @@ margin: auto;
     padding-top: 1rem;
     color: var(--dark-purple);
     text-align: center;
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
 }
 
 
@@ -138,7 +144,12 @@ margin: auto;
     color: white;
 }
 
-.footer .ul{
+.footer .footer-heading {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{ 
     padding-inline-start: 0px;
     /**This is becuz we need to remove padding wiz applied by browzer**/
 }
