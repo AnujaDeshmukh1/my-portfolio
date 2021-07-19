@@ -166,19 +166,12 @@ margin: auto;
 @media(max-width: 998px){
     html {
         font-size: 100%;
-        --primary-color: #B517AB;
-        --dark-purple: 
-        #660066;
-        --off-white: #F3F4F6;
+       
     }
 }
 
 @media(max-width: 768px){
     html {
         font-size: 90%;
-        --primary-color: #B517AB;
-        --dark-purple: 
-        #660066;
-        --off-white: #F3F4F6;
     }
 }
