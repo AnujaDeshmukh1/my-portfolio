@@ -9,7 +9,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    /* margin: 0px; */
+    margin: 0rem;
 }
 
 hr {
@@ -24,7 +25,8 @@ hr {
 }
 
 .container-center{
-    max-width: 600px;
+    /* max-width: 600px; */
+    max-width: 37.5rem;
     margin: auto;
 }
 
@@ -45,7 +47,8 @@ color: white;
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    /* border: 1px solid var(--primary-color); */
+    border: 0.0625rem solid var(--primary-color);
 }
 
 
@@ -97,7 +100,8 @@ font-size: larger;
 }
 
 .hero .hero-img {
-max-width: 350px;
+/* max-width: 350px; */
+max-width: 21.875rem;
 display: block;
 margin: auto;
 }
@@ -153,6 +157,7 @@ margin: auto;
 }
 
 .footer ul{ 
-    padding-inline-start: 0px;
+    /* padding-inline-start: 0px; */
+    padding-inline-start: 0rem;
     /**This is becuz we need to remove padding wiz applied by browzer**/
 }
