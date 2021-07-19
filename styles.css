@@ -161,3 +161,16 @@ margin: auto;
     padding-inline-start: 0rem;
     /**This is becuz we need to remove padding wiz applied by browzer**/
 }
+
+
+@media(max-width: 998px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 768px){
+    html {
+        font-size: 45%;
+    }
+}
