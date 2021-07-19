@@ -165,12 +165,12 @@ margin: auto;
 
 @media(max-width: 998px){
     html {
-        font-size: 110%;
+        font-size: 100%;
     }
 }
 
 @media(max-width: 768px){
     html {
-        font-size: 100%;
+        font-size: 90%;
     }
 }
