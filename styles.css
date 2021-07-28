@@ -55,6 +55,7 @@ color: white;
 /*Lists*/
 
 .list-non-bullet {
+    
     list-style: none;
 }
 
