@@ -86,7 +86,7 @@ font-size: larger;
 
 .navigation .nav-pills {
     padding-top: 1.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 .navigation .link-active {
